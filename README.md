@@ -8,7 +8,7 @@ In this topic, you'll follow a series of hands-on exercises that demonstrate how
 
 
 
-Enjoy the course!
+Enjoy this topic!
 
 <h3>APPM-5720</h3>
 </p>
@@ -19,7 +19,7 @@ Enjoy the course!
     ssh ubuntu@XX.XXX.XXX.XXX
     `
     
-    *Make sure to post your **ssh public key** to the Watson studio project used for this lesson
+    *Make sure to post your **ssh public key** to the Slack channel used for this lesson
     
 2. Navigate to class subdirectory
 
