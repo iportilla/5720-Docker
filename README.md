@@ -4,13 +4,13 @@
 
 ### Flow
 
-In this course, you'll follow a series of hands-on exercises that demonstrate how to use containers for your applications. You'll start with the basics: creating and running your first Docker containers. By the end of the course, you'll get a brief introduction to running containers in production.
+In this topic, you'll follow a series of hands-on exercises that demonstrate how to use containers for your applications. You'll start with the basics: creating and running your first Docker containers. By the end of the course, you'll get a brief introduction to running containers in production.
 
 
 
 Enjoy the course!
 
-<h3>BADM-4830</h3>
+<h3>APPM-5720</h3>
 </p>
 
 1. login to the development virtual machine VM hosted on AWS cloud
@@ -23,7 +23,7 @@ Enjoy the course!
     
 2. Navigate to class subdirectory
 
-	`cd /home/ubuntu/4830`
+	`cd /home/ubuntu/5720`
 3. Create & navigate to your own directory
 
 	`mkdir userName`
@@ -37,13 +37,13 @@ Enjoy the course!
 	`cd ivanp`
 	
 	
-4. Clone Module 7 repository from github
+4. Clone Docker repository from github
 
-	`git clone https://github.com/jiportilla/leeds-module-7.git`
+	`git clone https://github.com/iportilla/5720-Docker.git`
 	
-5. Change directory to the module 7 directory
+5. Change directory to the Docker directory
 
-	`cd leeds-module-7/`
+	`cd 5720-Docker/`
 6. Test your `docker` installation by running the following command:
 
 	`docker run hello-world`
@@ -162,24 +162,6 @@ Let's create an webapp image with the followig `Make` commands:
 
 where `XX.XXX.XXX.XXX` is the IP we used in the login step above and `PORT` is the port number provided in the `.env` file earlier.
 
-## Graph Databases
-
-A graph database stores nodes and relationships instead of tables, or documents. Data is stored just like you might sketch ideas on a whiteboard. Your data is stored without restricting it to a pre-defined model, allowing a very flexible way of thinking about and using it.
-
-
-
-
-![Graph Databases](public-html/graph.png)
-
-[https://neo4j.com/developer/graph-database/](https://neo4j.com/developer/graph-database/)
-
-## Lab
-
-Open Python notebook in Watson Studio project. 
-
-1. How many students attend Leeds?
-2. How many posts were published by one student?
-3. How many posts with a Math topic?
 
 ## License
 
