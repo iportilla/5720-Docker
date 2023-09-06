@@ -140,22 +140,28 @@ Docker images are the basis of containers. In the previous example, we pulled th
 Let's create an webapp image with the followig `Make` commands:
 
 
-1. Make clean
+1. To reset Docker images:
 
    ```
    make clean
    ```
 
-1. Build the image
+1. Build the image, type:
 
    ```
    make build
    ```
 
-1. Run the container
+1. Run the container, type:
 
    ```
    make run
+   ```
+
+4. To stop the docker container, type:
+
+   ```
+   make stop
    ```
 
 1. View the application in a browser at `XX.XXX.XXX.XXX:PORT`
