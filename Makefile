@@ -5,15 +5,20 @@ SYSTEM_ARCH := $(shell uname -m | sed -e 's/aarch64.*/arm64/' -e 's/x86_64.*/amd
 #export ARCH ?= $(SYSTEM_ARCH)
 
 
-# BADM 48030
+#APMM 5720
+
 export ARCH ?= amd64
+
+
+#<UPDATE PORT HERE>
+# ***************
 export PORT ?= 88
 
 
 
 
 # These variables can be overridden from the environment
-export CHATBOT_NAME ?= leeds
+export CHATBOT_NAME ?= demo
 export CHATBOT_VERSION ?= 1.0.0
 
 
