@@ -13,17 +13,13 @@ Enjoy this topic!
 <h3>STAT-5350/4350</h3>
 </p>
 
-1. login to the development virtual machine VM hosted on AWS cloud
+1. login to the development virtual machine VM hosted on Azure cloud
 
 	```
-    ssh ubuntu@XX.XXX.XXX.XXX
+    ssh azureuser@XX.XXX.XXX.XXX
     ```
 
- or
 
-	```
-	ssh azureuser@xx.xxx.xxx.xxx
-	```
     
     *Make sure to post your **ssh public key** to the Slack channel used for this lesson
     
