@@ -1,7 +1,7 @@
 <h1 align="center" style="border-bottom: none;">🔎 Docker 101 </h1>
 <h3 align="center">Docker is an open-source project that automates the deployment of software applications inside containers by providing an additional layer of abstraction and automation of OS-level virtualization on Linux..</h3>
 
-Learn more with [Docker get started](https://docs.docker.com/get-started)
+Learn more with [Docker get started guide](https://docs.docker.com/get-started)
 
 How is Docker different from a virtual machine?
 
