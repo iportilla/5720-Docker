@@ -101,6 +101,7 @@ In this topic, you'll follow a series of hands-on exercises that demonstrate how
 
 	```
  	docker run busybox echo "Hello World from busybox"
+ 
  	```
 
 9. Let's run a terminal in the busybox container with:
@@ -109,23 +110,20 @@ In this topic, you'll follow a series of hands-on exercises that demonstrate how
  	docker run -it busybox /bin/sh
  	```
  
- Test you are running inside the container with:
-
- 	```
+ 	Test you are running inside the container with:
+	```
  	ls
+ 	```
+ 
+ 	You will see:
 	```
- 
- You will see:
- 
- 	```
-	bin   dev   etc   home  proc  root  sys   tmp   usr   var
+ 	bin   dev   etc   home  proc  root  sys   tmp   usr   var
  	```
  
- Exit the container with?:
- 
- 	```
+ 	Exit the container with:
+	```
  	exit
-	```
+ 	```
 
 ### Static Site
 
