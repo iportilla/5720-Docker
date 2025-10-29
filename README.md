@@ -120,7 +120,7 @@ In this topic, you'll follow a series of hands-on exercises that demonstrate how
  
  	Test you are running inside the container with:
 	```
- 	#ls
+ 	ls
  	```
  
  	You will see:
