@@ -3,6 +3,10 @@
 
 <img width="914" height="434" alt="image" src="https://github.com/user-attachments/assets/a0a16786-68d1-4b42-9015-cdf0441830ca" />
 
+How?
+
+<img width="959" height="495" alt="image" src="https://github.com/user-attachments/assets/41a02028-304a-4a8f-b764-c9cbabeb58d9" />
+
 
 ### Flow
 
