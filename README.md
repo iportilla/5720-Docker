@@ -222,11 +222,35 @@ Let's create an webapp image with the followig `Make` commands:
    make stop
    ```
 
-1. View the application in a browser at `XX.XXX.XXX.XXX:PORT`
+5. View the application in a browser at `XX.XXX.XXX.XXX:PORT`
 
-where `XX.XXX.XXX.XXX` is the IP we used in the login step above and `PORT` is the port number provided in the `.env` file earlier.
+	where `XX.XXX.XXX.XXX` is the IP we used in the login step above and `PORT` is the port number provided in the `.env` file earlier.
 
+6. Next, let's deploy your `IBM watsonx chatbot` with the instructions from last lecture:
+7. But first edit your Makefile and use a new port: `8001, 8002, 8003, 8004 or 8005`:
+   ```
+   nano Makefile
+   ```
 
+   Edit `PORT` number (8001-8005)
+
+   ```
+   export PORT ?= 8001
+   ```
+
+   Save file:
+   `CTL O`
+
+   Exit file
+   `CTL X`
+
+8. Clean, build and run new image with"
+   ```
+   make clean
+   make build
+   make run
+   ```
+   
 ## License
 
 This sample code is licensed under the [MIT License](https://opensource.org/licenses/MIT).
