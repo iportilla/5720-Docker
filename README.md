@@ -138,31 +138,39 @@ In this topic, you'll follow a series of hands-on exercises that demonstrate how
 
 The first thing we're going to look at is how we can run a dead-simple static website. We're going to pull a Docker image from Docker Hub, run the container and see how easy it is to run a webserver.
 
-1. Detached mode, run
-
-`docker run -d -p 80:80 --name static-site prakhar1989/static-site`
+1. Detached mode, run:
+```
+docker run -d -p 80:80 --name static-site prakhar1989/static-site
+```
 
 In the above command, `-d` will detach our terminal, `-P` will publish all exposed ports to `80:80` and finally `--name` corresponds to a name we want to give. Now we can see the ports by running the `docker port [CONTAINER]` command:
 
-`docker port static-site`
+```
+docker port static-site
+```
 
-Check your browser to
+Open your browser and navigate to:
 
 `http://XX.XXX.XXX.XXX`
 
 Using the IP address above.
 
-Check running containers with
+Check running containers with:
 
-`docker ps`
+```
+docker ps
+```
 
 Stop running container with:
 
-`docker stop static-site`
+```
+docker stop static-site
+```
 
 Prune stopped containers with:
-
-`docker container prune`
+```
+docker container prune
+```
 
 
 ## Docker Images
@@ -171,7 +179,9 @@ We have looked at images before, but in this section we'll dive deeper into what
 
 Docker images are the basis of containers. In the previous example, we pulled the Busybox image from the registry and asked the Docker client to run a container based on that image. To see the list of images that are available locally, use the docker images command.
 
-`docker images`
+```
+docker images
+```
 
 Let's create an webapp image with the followig `Make` commands:
 
