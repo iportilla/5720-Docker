@@ -120,12 +120,13 @@ In this topic, you'll follow a series of hands-on exercises that demonstrate how
  
  	Test you are running inside the container with:
 	```
- 	ls
+ 	#ls
  	```
  
  	You will see:
 	```
- 	bin   dev   etc   home  proc  root  sys   tmp   usr   var
+	bin    etc    lib    proc   sys    usr
+	dev    home   lib64  root   tmp    var
  	```
  
  	Exit the container with:
