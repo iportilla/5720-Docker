@@ -244,10 +244,14 @@ Let's create an webapp image with the followig `Make` commands:
    Exit file
    `CTL X`
 
-8. Clean, build and run new image with"
+8. Clean, build and run new image with:
    ```
    make clean
+   ```
+   ```
    make build
+   ```
+   ```
    make run
    ```
    
