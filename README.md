@@ -97,6 +97,14 @@ In this topic, you'll follow a series of hands-on exercises that demonstrate how
 	docker images
  	```
 
+ 	You will see a list of docker images:
+	```
+ 	REPOSITORY          TAG       IMAGE ID       CREATED         SIZE
+	hello-world         latest    1b44b5a3e06a   2 months ago    10.1kB
+	busybox             latest    08ef35a1c3f0   13 months ago   4.43MB
+ 	...
+	```
+
 9. Great! Let's now run a Docker container based on this image. Run the following command:
 
 	```
