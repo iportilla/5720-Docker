@@ -149,6 +149,12 @@ In the above command, `-d` will detach our terminal, `-P` will publish all expos
 docker port static-site
 ```
 
+You will see:
+```
+80/tcp -> 0.0.0.0:80
+80/tcp -> [::]:80
+```
+
 Open your browser and navigate to:
 
 `http://XX.XXX.XXX.XXX`
@@ -159,6 +165,12 @@ Check running containers with:
 
 ```
 docker ps
+```
+
+You will see:
+```
+CONTAINER ID   IMAGE                     COMMAND          CREATED              STATUS              PORTS                                          NAMES
+451bcb5a77c6   prakhar1989/static-site   "./wrapper.sh"   About a minute ago   Up About a minute   0.0.0.0:80->80/tcp, [::]:80->80/tcp, 443/tcp   static-site
 ```
 
 Stop running container with:
