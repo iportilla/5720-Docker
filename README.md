@@ -7,48 +7,64 @@
 In this topic, you'll follow a series of hands-on exercises that demonstrate how to use containers for your applications. You'll start with the basics: creating and running your first Docker containers. By the end of the course, you'll get a brief introduction to running containers in production.
 
 
-
-Enjoy this topic!
-
 <h3>STAT-5350/4350</h3>
 </p>
 
 1. login to the development virtual machine VM hosted on Azure cloud
 
 	```
-    ssh azureuser@XX.XXX.XXX.XXX
+    ssh azureuser@XX.XX.XX.XX
     ```
 
 
     
     *Make sure to post your **ssh public key** to the Slack channel used for this lesson
     
-2. Navigate to class subdirectory
+2. Navigate to your team subdirectory
 
-	`cd /home/ubuntu/5720`
-3. Create & navigate to your own directory
+	```
+ 	cd team-1
+ 	```
 
-	`mkdir userName`
+	or team-2,team-3, ...
+
+4. Create & navigate to your own directory:
+
+   ```
+
+	mkdir userName
 	
-	`cd userName`
+	cd userName
+
+   ```
 	
 	For example:
-	
-	`mkdir ivanp`
-	
-	`cd ivanp`
-	
-	
-4. Clone Docker repository from github
 
-	`git clone https://github.com/iportilla/5720-Docker.git`
+	```
+	mkdir ivanp
 	
-5. Change directory to the Docker directory
+	cd ivanp
 
-	`cd 5720-Docker/`
-6. Test your `docker` installation by running the following command:
+ 	```
+	
+	
+6. Clone Docker repository from github:
 
-	`docker run hello-world`
+   ```
+	git clone https://github.com/iportilla/5720-Docker.git
+   ```
+	
+8. Change directory to the Docker directory:
+
+   ```
+	cd 5720-Docker/
+   ```
+   
+10. Test your `docker` installation by running the following command:
+
+	```
+	docker run hello-world
+ 	```
 	
 	You will see:
 	
@@ -74,31 +90,42 @@ Enjoy this topic!
 	...
 	```
 
-	The `pull` command fetches the busybox image from the Docker registry and saves it to your system. You can use the docker images command to see a list of all images on your system.
-	
-	`docker images`
+	The `pull` command fetches the busybox image from the Docker registry and saves it to your system.
+	You can use the `docker images` command to see a list of all images on your system:
 
-8. Great! Let's now run a Docker container based on this image. Run the following command:
+	```
+	docker images
+ 	```
 
- `docker run busybox echo "Hello World from busybox`
+9. Great! Let's now run a Docker container based on this image. Run the following command:
+
+	```
+ 	docker run busybox echo "Hello World from busybox"
+ 	```
 
 9. Let's run a terminal in the busybox container with:
 
- `docker run -it busybox /bin/sh`
+	```
+ 	docker run -it busybox /bin/sh
+ 	```
  
  Test you are running inside the container with:
- 
- `ls`
+
+ 	```
+ 	ls
+	```
  
  You will see:
  
- ```
-bin   dev   etc   home  proc  root  sys   tmp   usr   var
- ```
+ 	```
+	bin   dev   etc   home  proc  root  sys   tmp   usr   var
+ 	```
  
- Exit the container
+ Exit the container with?:
  
- `exit`
+ 	```
+ 	exit
+	```
 
 ### Static Site
 
