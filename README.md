@@ -1,6 +1,8 @@
 <h1 align="center" style="border-bottom: none;">🔎 Docker 101 </h1>
 <h3 align="center">Docker is an open-source project that automates the deployment of software applications inside containers by providing an additional layer of abstraction and automation of OS-level virtualization on Linux..</h3>
 
+<img width="914" height="434" alt="image" src="https://github.com/user-attachments/assets/a0a16786-68d1-4b42-9015-cdf0441830ca" />
+
 
 ### Flow
 
