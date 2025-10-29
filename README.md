@@ -226,7 +226,7 @@ Let's create an webapp image with the followig `Make` commands:
 
 	where `XX.XXX.XXX.XXX` is the IP we used in the login step above and `PORT` is the port number provided in the `.env` file earlier.
 
-6. Next, let's deploy your `IBM watsonx chatbot` with the instructions from last lecture:
+6. Next, let's deploy your `IBM watsonx chatbot` with the instructions from last [lecture](https://developer.ibm.com/learningpaths/get-started-watson-assistant/configure-and-deploy/):
 7. But first edit your Makefile and use a new port: `8001, 8002, 8003, 8004 or 8005`:
    ```
    nano Makefile
