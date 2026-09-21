@@ -156,7 +156,8 @@ The first thing we're going to look at is how we can run a dead-simple static we
 
 1. Detached mode, run:
 ```
-docker run -d -p 80:80 --name static-site prakhar1989/static-site
+
+docker run -d -p 800N:80 --name static-site-yourname prakhar1989/static-site
 ```
 
 In the above command, `-d` will detach our terminal, `-P` will publish all exposed ports to `80:80` and finally `--name` corresponds to a name we want to give. Now we can see the ports by running the `docker port [CONTAINER]` command:
@@ -167,8 +168,8 @@ docker port static-site
 
 You will see:
 ```
-80/tcp -> 0.0.0.0:80
-80/tcp -> [::]:80
+800N/tcp -> 0.0.0.0:80
+800N/tcp -> [::]:80
 ```
 
 Open your browser and navigate to:
@@ -186,7 +187,7 @@ docker ps
 You will see:
 ```
 CONTAINER ID   IMAGE                     COMMAND          CREATED              STATUS              PORTS                                          NAMES
-451bcb5a77c6   prakhar1989/static-site   "./wrapper.sh"   About a minute ago   Up About a minute   0.0.0.0:80->80/tcp, [::]:80->80/tcp, 443/tcp   static-site
+451bcb5a77c6   prakhar1989/static-site   "./wrapper.sh"   About a minute ago   Up About a minute   0.0.0.0:80->800N/tcp, [::]:80->80/tcp, 443/tcp   static-site
 ```
 
 Stop running container with:
